@@ -16,13 +16,9 @@ var transporter = nodemailer.createTransport({
   service: 'gmail',
   secure: true,
   auth: {
-    user: 'amartyasarkark8n0cx06w349338@gmail.com',
-    pass: '@<?#Vivek&*ma349338$>%'
+    user: "Your email",
+    pass: "YOUR Password"
   }
-  // auth: {
-  //   user: 'amartyasarkar4@gmail.com',
-  //   pass: '@<?#Vivek&*ma4$>%'
-  // }
 });
 
 app.post("/sendmail", (req, res) => {
